@@ -31,7 +31,7 @@ Certifique-se de ter os seguintes itens instalados antes de executar o projeto:
 1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/conversor-de-moedas.git
+   git clone https://github.com/hedimauro260/conversor-de-moedas.git
    cd conversor-de-moedas
    ```
 
