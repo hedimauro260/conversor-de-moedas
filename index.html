@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Conversor de Moedas</h1>
+            <label class="theme-toggle">
+                <input type="checkbox" id="theme-switch"/>
+                <span class="slider"></span>
+            </label>
+        </header>
+        
+        <main>
+            <!-- Currency Card  -->
+            <div class="currency-card" id="currency-card">
+                <div class="card-face front">
+                    <h2>Cotação Atual</h2>
+                    <p><span id="from-currency">USD</span> para <span id="to-currency">BRL</span></p>
+                    <p><strong>Taxa:</strong> <span id="exchange-rate">5.00</span></p>
+                </div>
+                <div class="card-face back">
+                    <h2>Resultado</h2>
+                    <p><strong><span id="to-currency-symbol">BRL</span><span id="converted-amount">0.00</span></strong></p>
+                    <p><strong>Taxa:</strong> <span id="back-exchange-rate">5.00</span></p>
+                </div>
+            </div>
+            <!-- Converter -->
+            <div class="converter">
+                <select id="from-select">
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="JPY">Iene Japonês (JPY)</option>
+                </select>
+            
+                <select id="to-select">
+                    <option value="BRL">Real Brasileiro (BRL)</option>
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                </select>
+            
+                <input type="number" id="amount" placeholder="Digite o valor..." min="0" step="0.01">
+                <button id="convert-btn">Converter</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
