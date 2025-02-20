@@ -97,6 +97,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 ## 🚀 Funcionalidades Futuras
 
 - **Modo Simulador de Viagem**: selecionar um país e ver quanto seu dinheiro vale lá.
+- **Histórico de Conversões**: Armazene as últimas conversões do usuário para consulta rápida.
 
 ## 👥 Autor
 
